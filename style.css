@@ -1,0 +1,160 @@
+* {
+    font-family: Poppins;
+}
+
+body {
+    background-color: #c3cfe2;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+}
+.container{
+    max-width: 48rem;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+header {
+    color: #ffffff;
+    background: linear-gradient(to left, #764ba2, #667eea);
+    text-align: center;
+}
+
+h1 {
+    font-size: 30px;
+    font-weight: 500;
+    padding-top: 30px;
+    color: #ffffff;
+}
+
+.head-p {
+    font-weight: 300;
+    padding: 15px 0 30px 0;
+    color: #ffffff;
+}
+
+main {
+    padding: 20px 20px 0 20px;
+    background-color: #f5f7fa;    
+}
+
+label {
+    color: #4a5568;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+/* инпуты */
+.inputs {
+    width: 100%;
+    height: 50px;
+    border-radius: 5px;
+    padding-left: 20px;
+    border: 1px solid #cacaca;
+    margin-bottom: 20px;
+    transition: border 0.3s ease;
+}
+
+.inputs:focus {
+    border: 1px solid blue;
+    outline:none;
+}
+
+section {
+    padding: 0 0 20px 0;
+}
+
+.space-between {
+    display: flex;
+    justify-content: space-between;
+}
+
+a {
+    color: #798fff;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.login-button {
+    margin-top: 20px;
+    color: white;
+    background: linear-gradient(to left, #764ba2, #667eea);
+    font-weight: 500;
+    padding: 15px 0 15px 0;
+    display: flex;
+    justify-content: center;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.login-button:hover {
+    box-shadow: 0 0 20px #bbbbbb;
+}
+
+.login-button:active {
+    transform: translate(0, -1px);
+}
+.hr_sect{
+    padding-top:px;
+}
+.hr_div {
+    color: #bbbbbb;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding: -50px;
+}
+
+.hr {
+    margin: 12px 5px 0px;
+    width: 100%;
+    height: 1px;
+    border-bottom: 1px solid #bbbbbb;
+}
+
+/* кнопки ссылки */
+.buttons {
+    margin-top: 5px;
+    margin-left: 22%;
+    margin-right: 22%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.links {
+    width: 50px;
+    height: 50px;
+    border-radius: 300px;
+    background-color: #eeeff0;
+    border: 1px solid #b9babc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.links:hover {
+    background-color: #d6d4d4;
+    border: 1px solid #8b909a;
+}
+
+img {
+    width: 20px;
+    height: 20px;
+}
+
+.register-link {
+    text-align: center;
+}
+
+.shadow {
+    box-shadow: 10px 10px 20px #bbbbbb;
+}
+/*для регистрации*/
+select{
+    background-color: #ececec;
+}
