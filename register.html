@@ -15,19 +15,35 @@
     <div class="container">
         <header class="shadow">
             <h1>
-                Student Login
+                Student registration
             </h1>
             <p class="head-p">
-                Access your student account
+                Create your student account
             </p>
         </header>
         <main class="shadow">
             <section>
                 <form method="POST" action="/api/login">
-                    <label for="email">Email or student ID</label>
-                    <input id="email" class="inputs" type="email" placeholder="Enter your email or student ID" name="email" required/>
+                    <label for="email">Full Name</label>
+                    <input id="email" class="inputs" type="email" placeholder="Enter your full name" name="email" required/>
+                    <label for="password">Email Address</label>
+                    <input id="password" class="inputs" type="password" placeholder="Enter your email" name="password" required/>
+                    <label for="password">Student ID</label>
+                    <input id="password" class="inputs" type="password" placeholder="Enter your student ID" name="password" required/>
+                    
+
+                    <label for="xleb" class="cool-form">Selected Program</label>
+                    <select id="xleb" name="xleb" class="cool-form" name="Choose ponos">
+                        <option value="ПРивект">Computer Science</option>
+                        <option value="ПРивект">Engineering</option>
+                        <option value="ПРивект">Business</option>
+                        <option value="ПРивект">Arts & Humanities</option>
+                        <option value="ПРивект">Science</option>
+                    </select>
                     <label for="password">Password</label>
-                    <input id="password" class="inputs" type="password" placeholder="Enter your password" name="password" required/>
+                    <input id="password" class="inputs" type="password" placeholder="Create a password" name="password" required/>
+                    <label for="password">Confirm Password</label>
+                    <input id="password" class="inputs" type="password" placeholder="Confirm your password" name="password" required/>
                   
                 <p class="space-between">
                     <span>
@@ -54,22 +70,21 @@
             
             <section class="buttons">
                 <button class="links">
-                    <img src="assets/icons8-google (1).svg" alt="ббб, ливай отсюад">
+                    <img src="assets/icons8-google (1).svg">
                 </button>
                 <button class="links">
-                    <img src="assets/icons8-windows.svg" alt="ббб, ливай отсюад">
+                    <img src="assets/icons8-windows.svg">
                 </button>
                 <button class="links">
-                    <img src="assets/icons8-apple-inc.svg" alt="ббб, ливай отсюад">
+                    <img src="assets/icons8-apple-inc.svg">
                 </button>
             </section>
             <section>
                 <p class="register-link">
-                Don`t have an account? <a href="register.html">Register</a>
+                Don`t have an account? <a href="">Register</a>
                 </p> 
             </section>
         </main>
-    
     </div>
 </body>
 </html>
