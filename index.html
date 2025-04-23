@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="style.css"/> 
 </head>
 <body>
-    <header>
+    <header class="shadow">
         <h1>
             Student Login
         </h1>
@@ -20,59 +20,50 @@
             Access your student account
         </p>
     </header>
-    <main>
+    <main class="shadow">
         <section>
-            <h2>
-                Email or Student ID
-            </h2>
-            <input type="email" class="inputs" placeholder="Enter your email or Student ID">
-        </section>
-        <section>
-            <h2>
-                Password
-            </h2>
-            <p>
-                <input type="password" class="inputs" placeholder="Enter your password">
-            </p>
-        </section>
-        <section>    
+            <form method="POST" action="/api/login">
+                <label for="email">Email or student ID</label>
+                <input id="email" class="inputs" type="email" placeholder="Enter your email or student ID" name="email" required/>
+                <label for="password">Password</label>
+                <input id="password" class="inputs" type="password" placeholder="Enter your password" name="password" required/>
+              
             <p class="space-between">
                 <span>
-                    <input type="checkbox" id="check"/>
+                    <input type="checkbox" id="check" required/>
                     <label for="check">Remember me</label>
                 </span>
                 <span>
                     <a href="">Forgot password?</a>
                 </span>
             </p>
-        </section>
-        <section>
             <button class="login-button">
                 Log In
             </button>
+            </form>
         </section>
         <!--а вот тут начинается--> 
         <section class="hr-sect">
-            <div class="hr">
-            </div>
-            <p class="text-in-hr">
-                OR
-            </p>
+            <div class="hr_div">
+                <span class="hr"></span>
+                <span class="text_ht">OR</span>
+                <span class="hr"></span>
+            </div>    
         </section>   
         
         <section class="buttons">
             <button class="links">
-                <img src="assets/icons8-google.svg" alt="ббб, ливай отсюад">
+                <img src="assets/icons8-google (1).svg" alt="ббб, ливай отсюад">
             </button>
             <button class="links">
-                <img src="assets/icons8-windows-11.svg" alt="ббб, ливай отсюад">
+                <img src="assets/icons8-windows.svg" alt="ббб, ливай отсюад">
             </button>
             <button class="links">
                 <img src="assets/icons8-apple-inc.svg" alt="ббб, ливай отсюад">
             </button>
         </section>
         <section>
-            <p>
+            <p class="register-link">
             Don`t have an account? <a href="">Register</a>
             </p> 
         </section>

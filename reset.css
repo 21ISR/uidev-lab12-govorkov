@@ -53,7 +53,7 @@ h3, h4 {
 a:not([class]) {
   text-decoration-skip-ink: auto;
   /*color: currentColor;*/
-  /*а это зачем?*/
+  /*М*/
   text-decoration: none;
   color:#1b3de7;
 }

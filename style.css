@@ -1,139 +1,151 @@
-
-*{
+* {
     font-family: Poppins;
 }
-body{
+
+body {
     margin: 20px 37% 0 37%;
     background-color: #c3cfe2;
-    box-shadow: 10px 10px 20px#bbbbbb;
 }
 
-colors{
-    color:#667eea, #764ba2, #f5f7fa
-    #c3cfe2
-    #4a5568;
-}
-
-header{
-    color:#ffffff;
+header {
+    color: #ffffff;
     background: linear-gradient(to left, #764ba2, #667eea);
     text-align: center;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 }
-h1{
+
+h1 {
     font-size: 30px;
     font-weight: 500;
-    padding:30px 0 0 0;
-    color:#ffffff;
-}
-.head-p{
-    font-weight: 300;
-    padding:15px 0 30px 0;
+    padding: 30px 0 0 0;
     color: #ffffff;
 }
-/*меин*/
-main{
+
+.head-p {
+    font-weight: 300;
+    padding: 15px 0 30px 0;
+    color: #ffffff;
+}
+
+main {
     padding: 20px 20px 0 20px;
-    background-color:#f5f7fa;
+    background-color: #f5f7fa;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
+}
 
-}
-h2{
-    color:#4a5568;
-    font-weight: 600;
-    font-size: 15px;
-    padding: 0 0 8px 0;
-}
-label{
-    color:#4a5568;
+label {
+    color: #4a5568;
     font-weight: 600;
     font-size: 15px;
 }
 
-.inputs{
-    width:100%;
+/* инпуты */
+.inputs {
+    width: 100%;
     height: 50px;
     border-radius: 5px;
-    padding: 0 0 0 20px;
-    border:1px solid #818181;
+    padding-left: 20px;
+    border: 1px solid #cacaca;
+    margin-bottom: 20px;
+    transition: border 0.3s ease;
 }
-/*
 
-inputs:focus{
-    border:1px solid #0400ff;
+.inputs:focus {
+    border: 1px solid blue;
 }
-inputs:active{
-    border:1px solid #0400ff;
-    z-index: 3;
+
+section {
+    padding: 0 0 20px 0;
 }
-*/
-section{
-    padding:0 0 20px 0;
-}
-.space-between{
+
+.space-between {
     display: flex;
     justify-content: space-between;
 }
-a{
-    color:#798fff;
+
+a {
+    color: #798fff;
 }
-a:hover{
+
+a:hover {
     text-decoration: underline;
 }
 
-.login-button{
-    color:white;
-    background:linear-gradient(to left, #764ba2, #667eea);
+.login-button {
+    color: white;
+    background: linear-gradient(to left, #764ba2, #667eea);
     font-weight: 500;
-    padding:15px 43% 15px 41%;
+    padding: 15px 0 15px 0;
     display: flex;
     justify-content: center;
     border: none;
     border-radius: 5px;
+    width: 100%;
 }
-.login-button:hover{
-    box-shadow: 0 0 20px#bbbbbb;
+
+.login-button:hover {
+    box-shadow: 0 0 20px #bbbbbb;
 }
-.login-button:active{
+
+.login-button:active {
     transform: translate(0, -1px);
 }
-
-
-.hr{
-    padding-top: 15px;
-    border-bottom: 2px solid #929292;
+.hr_sect{
+    padding:20px;
 }
-.text-in-hr{
-    color:#4a5568;
-    font-weight: 600;
-    font-size: 15px;
-    border: 1px solid rgb(255, 255, 255);
-    margin-left:45%;
-    margin-right: 47%;
-    border-radius: 200px;
-    background-color: white;
-    padding:10px;
-    /**/
-    position: absolute;
-    right:19px;
-    top:73%;
-}
-
-.buttons{
-    margin-top: 5px;
+.hr_div {
+    padding: 0px 0px;
+    color: #bbbbbb;
+    text-align: center;
     display: flex;
-    justify-content:center;
+    justify-content: center;
+    padding: -50px;
 }
-img{
-    width:40px;
-    height:40px;
 
+.hr {
+    margin: 12px 5px 0px;
+    width: 100%;
+    height: 1px;
+    border-bottom: 1px solid #bbbbbb;
 }
-.links{
-    width:70px;
-    height: 70px;
+
+/* кнопки ссылки */
+.buttons {
+    margin-top: 5px;
+    margin-left: 15%;
+    margin-right: 15%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.links {
+    width: 50px;
+    height: 50px;
     border-radius: 300px;
-    background-color: #bbbbbb;
+    background-color: #eeeff0;
+    border: 1px solid #b9babc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.links:hover {
+    background-color: #d6d4d4;
+    border: 1px solid #8b909a;
+}
+
+img {
+    width: 20px;
+    height: 20px;
+}
+
+.register-link {
+    text-align: center;
+}
+
+.shadow {
+    box-shadow: 10px 10px 20px #bbbbbb;
 }
